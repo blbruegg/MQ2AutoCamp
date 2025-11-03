@@ -224,7 +224,7 @@ PLUGIN_API void SetGameState(int GameState)
 }
 
 
-void PopUpWarning(PCHAR szText)
+void PopUpWarning(const char* szText)
 {
 	pTextOverlay->DisplayText(szText,13,10,255,100,500,30000);
 }
